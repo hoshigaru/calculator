@@ -1,0 +1,36 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    height: 100px;
+    width: 1140px;
+    border: 2px black solid;
+    text-align: right;
+    vertical-align: center;
+    line-height: 100px;
+    font-size: 100px;
+}
+
+#calculator-body {
+    display: flex;
+}
+
+#numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 35px;
+    margin: 5px;
+    flex: 1 1 30%;
+    font-size: 20px;
+}
